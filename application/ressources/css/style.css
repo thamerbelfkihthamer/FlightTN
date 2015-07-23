@@ -1,0 +1,37 @@
+body {background: #888 }
+header{padding: 20px; }
+header img{ width: 10% ;  box-shadow: 8px 8px 8px #aaa; }
+header h2{font-family: cursive;font-size: 17px; float: right ; margin-top: 100px;  }
+
+.contents{border-radius: 10px; ; border:1px solid #000;min-height: 350px ; margin-top: 100px;   box-shadow: 8px 8px 120px #aaa; }
+.contentslogin{margin-top: 200px; height: 250px;border-radius: 10px; padding: 10px; margin-left: 470px; margin-right: 150px; }
+aside { width: 20%; float: left;min-height:200px; margin-right: 20px;  }
+aside a{ display:block; margin: 5px;}
+
+.btn-danger{padding:  7px 15px; border-radius: 10px;  }
+.btn-danger:hover{text-decoration: none; }
+
+
+footer{text-align: center ; padding: 20px ;margin-top: 135px }
+footer p{font-family: serif ;font-size: 16px;}
+
+//login.php
+.login input[type="submit"]{margin-right: 1000px;padding: 10px; margin-top: 100px;}
+.register{width:40%; float: left;  }
+.login{ box-shadow: 8px 8px 120px #aaa;  height: 200px; margin-top: 50px; margin-right: -300px; border: 1px solid #000;border-radius: 10px; width: 300px;}
+ .login input[type="text"], .login input[type="password"]{ display: block; width:250px; border: 1px solid #ddd; margin-left: 10px; margin: 10px; }
+.login h2{font-family:verdana; font-size: 18px;margin-left: 70px; }
+.titre{font-family: cursive; font-size: 20px; }
+.avionform{width: 300px; float: left; margin-left: 10px; margin-top: 10px; }
+.avionform label{float: left; width: 100px;}
+.avionform input {width: 150px; float: left; padding: 5px 5px; border-radius: 5px; border: 2px solid #999; display: block; margin-bottom: 10px; }
+.avionform input[type="submit"]{width: 150px; height: 35px; margin: 10px 100px;}
+.gestionavion th{ color: #900; background:  #ff9 !important ; }
+.gestionavion{margin: 10px 100px ;}
+.table{width: 78%; margin-top: -50px;}
+#tabutlisateur{margin-top: 100px; }
+.titree{font-family: cursive; font-size: 20px; float: right; color:  #900 !important; margin-top: -20px;}
+.tableau td{font-family: cursive; font-size: 18px; }
+.volform{width: 300px; float: left;margin-top: 10px; }
+.volform input {width: 150px; float: left; padding: 5px 5px; border-radius: 5px; border: 2px solid #999; display: block; margin-bottom: 10px; }
+ .tabreservation{margin-top: 100px;}            

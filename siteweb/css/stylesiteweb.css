@@ -1,0 +1,187 @@
+.html{background-image: url('img/avion1.jpg');}
+/*header menu  */
+
+.menu nav  a{padding: 50px;padding-top: 70px;}
+.menu nav { padding-top: 10px;border-radius: 20px;border: 1px solid activecaption; height: 50px; width: 950px; margin-left: 100px;margin-top: 30px;background-color: #428bca; }
+.menu nav ul li{list-style-type: none; display: inline; font-family:  cursive; font-size: 20px; }
+.menu nav ul li a{text-decoration: none; color: red; }
+.menu nav ul li a:hover{ color: #e8e8e8 ; }
+#contenu #controlleur{
+   margin-top:  10px;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    height: 700px;
+    width: 710px;
+    margin-left:  100px;
+    background-color: gray;
+    
+
+}
+
+
+/*header menu  */
+body{  height: 600px;
+       margin: 50px;
+       background-color: rgba(122, 125, 255, 0.5);
+       color:#0FFF;
+
+}
+
+#contenu #slider #inscription{
+    display: block;
+    border: 1px solid darkgray ;
+    height: 310px ;
+    width: 230px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-left: 820px;
+    background-color: gray;
+    border-radius: 20px;
+}
+#contenu #slider #inscription input[type = "submit"]{margin-left: 50px;
+                                    margin-top: 12px;
+                                     color: red;
+                                  font-family: cursive;
+}
+#contenu #slider #login input[type="submit"]{box-shadow: 8px ;
+                            border-radius: 5px;
+                            margin-left: 50px;
+                            margin-top: 12px;
+                            color: blue;
+                            font-family: cursive;
+}
+#contenu #slider #login{ 
+    border-radius: 20px;
+    display: block;
+    background-color: gray;
+    border: 1px solid darkgray;
+    margin-left: 820px;
+    margin-top: -700px;
+    height: 170px;
+    width: 230px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    
+}
+
+/* footer */
+footer{
+   
+   /*border-radius: 20px; */
+   border: 1px solid activecaption;
+   height: 70px;
+   width: 1211px;
+   float: right;
+   
+  /* margin-left: 100px; */
+   margin-top: 280px;
+   background-color: #428bca;
+   font-family:  cursive;
+   font-size: 16px;
+ /*  position:   static; */
+   
+}
+footer div{
+   font-family:  cursive;
+   font-size: 16px;
+   color: red;
+   margin-left: 400px;
+   margin-top: 30px;
+    
+}
+
+#contacter_nous {
+    
+    border: 1px solid #000;
+    display: block;
+    margin: 50px;
+}
+
+#contacter_nous input[type="text"]{
+margin-left: 42px;
+height: 30px;
+width: 500px;
+margin-top: 20px;
+  font-size: 20px;
+    font-family:  cursive;
+    color: blue;
+}
+
+#contacter_nous input[type="email"]{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:  cursive;
+    color: blue;
+     height: 40px;
+     width: 500px;
+}
+#contacter_nous textarea{
+     margin-top: 20px;
+     height: 250px;
+     width: 500px;
+       font-size: 20px;
+    font-family:  cursive;
+    color: blue;
+    
+}
+#contacter_nous input[type="submit"] {
+    box-shadow: 8px ;
+        
+                            border-radius: 5px;
+                            margin-left: 300px;
+                            margin-top: 12px;
+                            color: red;
+                            font-family: cursive;
+                            height: 50px;
+                            width: 100px;
+    
+}
+#reservation{
+    padding: 20px;
+    padding-left: 40px;
+    border: 1px solid #000;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#reservation input[type="time"]{
+    margin: 10px;
+    height: 30px;
+    width: 140px;
+    
+}
+#reservation input[type="date"]{
+     margin: 10px;
+    height: 30px;
+    width: 140px;
+}
+#reservation select{
+     margin: 10px;
+    height: 30px;
+    width: 140px;
+}
+#reservation select optgroup option{
+  font-size: 20px; 
+  color: red;
+  font-family: cursive;
+}
+#reservation input[type="submit"]{
+    box-shadow: 8px ;
+        
+                            border-radius: 5px;
+                            margin-left: 200px;
+                            margin-top: 12px;
+                            color: red;
+                            font-family: cursive;
+                            height: 30px;
+                            width: 200px;
+}
+.tableau td{font-family: cursive; font-size: 12px; }
+.gestionavion th{ color: #900; background:  #ff99 !important ; }
+.gestionavion{margin: 10px 100px ;}
+.table{width: 100%; margin-top: 40px;margin-left: 2px;}
+
